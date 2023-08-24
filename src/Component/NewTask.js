@@ -5,7 +5,7 @@ import { useTracker } from "../Context/TrackerContext";
 function NewTask({ newtask }) {
   const [taskname, settaskname] = useState("");
   const [hours, setHours] = useState("");
-  const { state, dispatch } = useTracker();
+  const { dispatch } = useTracker();
   const onSubmit = (e) => {
     e.preventDefault();
     if (!taskname || !hours) {

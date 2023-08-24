@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-
 import ListingPage from "./Component/ListingPage";
 import NewProject from "./Component/NewProject";
 import NewTask from "./Component/NewTask";
+import React from "react";
 import { TimeTrackerProvider } from "./Context/TrackerContext";
 
 const App = () => {
